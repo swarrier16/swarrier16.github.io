@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.6/cyborg/bootstrap.min.css">
+    <style rel="stylesheet" type="text/css" href="styles.css"></style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+
+    <div class= "navbar navbar-inverse navbar-static-top">
+        <div class="container">
+        
+            <a href="project.html" class="navbar-brand">Portfolio Site</a>
+            
+            <button class="navbar-toggle" data-toggle="collapse" data-target =".navHeaderCollapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse navHeaderCollapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href ="project.html"> <i class="fa fa-home"></i> Home</a></li>
+                    <li><a href ="portfolio.html"> <i class="fa fa-map-o"></i> Projects</a></li>
+                    <li class="dropdown">                        
+                        <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown"><i class="fa fa-mobile"></i>  Social Media<b class = "caret"></b></a>
+                        <ul class = "dropdown-menu">
+                            <li><a href = "https://twitter.com/"><i class="fa fa-twitter"></i> Twitter</a></li>
+                            <li><a href = "https://www.facebook.com/"><i class="fa fa-facebook-square"></i> Facebook</a></li>
+                            <li><a href = "https://www.instagram.com/?hl=en"><i class="fa fa-instagram"></i> Instagram</a></li>
+                        </ul>
+                        
+                    </li>
+
+                    <li><a href ="about.html"><i class="fa fa-code"></i> About</a></li>
+                    <li><a href ="groups.html"><i class="fa fa-music"></i> Bands</a></li>
+                    <li><a href ="#contact" data-toggle="modal"> <i class="fa fa-phone"></i> Contact Us</a></li>                    
+                </ul>                
+            </div>
+        </div>       
+    </div>
+    
+    <div class="container">
+        <div class="jumbotron">
+            <center><h1>Welcome!</h1>
+            <p>Here you will find some personal projects as well as other finished works. I hope you enjoy what you see here! </p>
+            <a class="btn btn-danger"  href="portfolio.html">View My Portfolio</a></center>
+        </div>
+    </div>
+    
+     <div class="container marketing">
+    <div class="row">
+        <div class="col-lg-6">
+          <img class="img-circle" src="https://d13yacurqjgara.cloudfront.net/users/158849/screenshots/1362259/girls-who-code_1x.png" alt="GWC" width="300" height="300">
+          <h2>Girls Who Code</h2>
+          <p>An organization that encourages high school juniors and seniors to pursue computer science in the future. They are currently accepting application for next summer. Students are immersed in a seven week course that will immerse them in many diffeent fields of computer science.</p>
+          <p><a class="btn btn-primary" href="http://girlswhocode.com/" role="button">Check It Out!</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-6">
+          <img class="img-circle" src="https://www.ostraining.com/cdn/images/coding/bootstrap.png" alt="Bootstrap" width="300" height="300">
+          <h2>Bootstrap</h2>
+          <p>A tool with built in libraries that made this website possible. It started out as a Twitter API, but was later released to the public to make eye-catching websites.</p>
+          <p><a class="btn btn-primary" href="http://getbootstrap.com/getting-started/" role="button">Check It Out!</a></p>
+          <br></br><br></br>  <br></br><br></br>
+        </div><!-- /.col-lg-4 -->
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+        
+    
+    <div class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container">
+            <p class="navbar-text pull-left">Site Built By Me</p>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="contact" role="dialog">
+        <div class="modal-dialogue">
+            <div class="modal-content">
+                <form class="form-horizontal">
+                    <div class="modal-header">
+                        <h4>Contact Tech Site</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for ="Contact-name" class="col-lg-2 control-label">Name</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="contact-name" placeholder ="Full Name">
+                            </div>
+                        </div>
+                    
+                       <div class="form-group">
+                        <label for ="Contact-email" class="col-lg-2 control-label">Email</label>
+                        <div class="col-lg-10">
+                            <input type="email" class="form-control" id="contact-email" placeholder ="me@example.com">
+                            
+                        <div class="form-group">
+                            <label for ="Contact-message" class="col-lg-2 control-label">Message</label>
+                            <div class="col-lg-10">
+                                <textarea class="form-control" rows="8"></textarea>
+                            </div>
+                        </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="modal-footer">
+                        <a class="btn btn-default" data-dismiss="modal">Close</a>
+                        <button class="btn btn-primary" type="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>
