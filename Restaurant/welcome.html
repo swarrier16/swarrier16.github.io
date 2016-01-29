@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Pavillion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.6/readable/bootstrap.min.css">
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+       
+</head>
+<body>
+
+    <div class= "navbar navbar-inverse navbar-static-top">
+        <div class="container">
+        
+            <a href="welcome.html" class="navbar-brand">The Pavillion</a>
+            
+            <button class="navbar-toggle" data-toggle="collapse" data-target =".navHeaderCollapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse navHeaderCollapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href ="welcome.html">Welcome</a></li>
+                    <li><a href ="menu.html"></i> Menu</a></li>
+                    <li class="dropdown">                        
+                        <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown"></i>  Social Media<b class = "caret"></b></a>
+                        <ul class = "dropdown-menu">
+                            <li><a href = "https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i> Twitter</a></li>
+                            <li><a href = "https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a></li>
+                            <li><a href = "https://www.instagram.com/?hl=en" target="_blank"><i class="fa fa-instagram"></i> Instagram</a></li>
+                        </ul>
+                        
+                    </li>
+
+                    <li><a href ="gallery.html"></i> Gallery</a></li>
+                    <li><a href ="location.html"></i>Restaurant Info</a></li>
+                    <li><a href ="#contact" data-toggle="modal"></i> Contact Us</a></li>                    
+                </ul>                
+            </div>
+        </div>       
+    </div>
+    
+    <!--div class="container"-->
+        <div class="jumbotron">
+            <center>
+             Welcome to The Pavillion, where the variety of foods will expose you to different cultures. Sit back, and enjoy the food!</br><br></br><br></br><br></br><br></br><br></br>  
+            <p><a class="btn btn-info" href="https://6f964c33260d412f3c8254a11894bebd50bdeecd.googledrive.com/host/0B-9yxMca2GbGN3FJOGtDdmZrRXc/Final%20Project/menu.html" role="button">View Menu</a></p>
+        <!--/div-->
+    </div>
+    
+    <br></br>
+         <div class="container marketing">
+    <div class="row">
+        <div class="col-lg-4">
+          <img class="img-square" src="img/cake.jpg" alt="Menu" width="300" height="300">
+          <h4>Menu</h4>
+          <p>Delicious food, friendly service...come spend your evening with us!</p>
+          <p><a class="btn btn-info" href="https://6f964c33260d412f3c8254a11894bebd50bdeecd.googledrive.com/host/0B-9yxMca2GbGN3FJOGtDdmZrRXc/Final%20Project/menu.html" role="button">View Menu</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-square" src="http://www.kenkee.com/food/images/001.jpg" alt="Gallery" width="300" height="300">
+          <h4>Gallery</h4>
+          <p>Preview what some of the menu items look like.</p>
+          <p><a class="btn btn-info" href="https://6f964c33260d412f3c8254a11894bebd50bdeecd.googledrive.com/host/0B-9yxMca2GbGN3FJOGtDdmZrRXc/Final%20Project/gallery.html" role="button">View Gallery</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-square" src="http://assets.sheratonsharm.com/lps/assets/u/WhiteCruiserMainBuildingRestaurant1.jpg" alt="Info" width="300" height="300">
+          <h4>Restaurant Info</h4>
+          <p>Want contact information or directions?</p>
+          <p><a class="btn btn-info" href="https://6f964c33260d412f3c8254a11894bebd50bdeecd.googledrive.com/host/0B-9yxMca2GbGN3FJOGtDdmZrRXc/Final%20Project/location.html" role="button">View Info</a></p>
+        </div><!-- /.col-lg-4 -->
+    </div>
+    </div>
+
+        
+    
+    <div class="navbar navbar-inverse navbar-static-bottom">
+        <div class="container">
+        <center>
+            <br>
+            <a href = "https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
+            <a href = "https://www.instagram.com/?hl=en" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+            <a href = "https://twitter.com/" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+        <br></br>
+            <p>123 Main St, New York, NY 08840 | 609.234.6546 | info@thepavillion.com</p>
+            <p>Sunday 12pm - 8pm</p>
+            <p>Monday - Friday 11:30am - 10pm</p>
+            <p>Saturday 5pm - 11pm</p>
+        </center>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="contact" role="dialog">
+        <div class="modal-dialogue">
+            <div class="modal-content">
+                <form class="form-horizontal">
+                    <div class="modal-header">
+                        <h4>Contact Tech Site</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for ="Contact-name" class="col-lg-2 control-label">Name</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="contact-name" placeholder ="Full Name">
+                            </div>
+                        </div>
+                    
+                       <div class="form-group">
+                        <label for ="Contact-email" class="col-lg-2 control-label">Email</label>
+                        <div class="col-lg-10">
+                            <input type="email" class="form-control" id="contact-email" placeholder ="me@example.com">
+                            
+                        <div class="form-group">
+                            <label for ="Contact-message" class="col-lg-2 control-label">Message</label>
+                            <div class="col-lg-10">
+                                <textarea class="form-control" rows="8"></textarea>
+                            </div>
+                        </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="modal-footer">
+                        <a class="btn btn-default" data-dismiss="modal">Close</a>
+                        <button class="btn btn-primary" type="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>
