@@ -1,0 +1,25 @@
+.parallax-title-container {
+  position: relative;
+  overflow: hidden;
+  height: 650px;
+}
+
+.parallax-container {
+  height: 650px;
+}
+
+.my_own_class {
+	font-family: "devicons"
+}
+
+.my_own_class : before {
+	content : \e60a;
+}
+
+.card-title {
+	padding-left : 35%;
+}
+
+.devicons {
+	resize: 200px;
+}
