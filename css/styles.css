@@ -38,6 +38,7 @@ p, footer {
 nav, footer {
   	background-color: blue-grey darken-4;
 	font-family: 'Roboto Condensed', sans-serif;
+	color : white;
 	opacity: 0.75;
 }
 
