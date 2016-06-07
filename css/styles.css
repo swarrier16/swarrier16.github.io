@@ -1,11 +1,11 @@
 .parallax-title-container {
   position: relative;
   overflow: hidden;
-  height: 650px;
+  height: 550px;
 }
 
 .parallax-container {
-  height: 650px;
+  height: 550px;
 }
 
 .my_own_class {
@@ -23,3 +23,26 @@
 .devicons {
 	resize: 200px;
 }
+
+h2 {
+	font-family: 'Pacifico', cursive;
+	color : white;
+	text-shadow: 2px 2px #ff0066;
+}
+
+p, footer {
+	font-size: 15pt;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav, footer {
+  	background-color: blue-grey darken-4;
+	font-family: 'Roboto Condensed', sans-serif;
+	opacity: 0.75;
+}
+
+ul, #footer-nav, li {
+    display:inline;
+    margin: 0px 20px;
+}
+

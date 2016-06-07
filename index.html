@@ -8,62 +8,78 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'> 
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/styles.css"> 
 </head>
 </head>
 <body>
-	<nav>
+
+   <div class="navbar-fixed hide-on-med-and-down">
+	<nav class="blue-grey darken-4">
     <div class="nav-wrapper container">
-      <a href="#!" class="brand-logo">Logo</a>
+      <a href="#!" class="brand-logo">Portfolio Site</a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="sass.html">About Me</a></li>
-        <li><a href="badges.html">Projects</a></li>
-        <li><a href="collapsible.html">Skills</a></li>
-        <li><a href="mobile.html">Social Links</a></li>
+        <li><a href="#about-me" class="animated fadeInDown wow" data-wow-delay=".2s">About Me</a></li>
+        <li><a href="#projects" class="animated fadeInDown wow" data-wow-delay=".7s">Projects</a></li>
+        <li><a href="#skills" class="animated fadeInDown wow" data-wow-delay="1s">Skills</a></li>
+        <li><a href="#social-media" class="animated fadeInDown wow" data-wow-delay="1.2s">Social Links</a></li>
       </ul>
       <ul class="side-nav" id="mobile-demo"	>
-        <li><a href="sass.html">About Me</a></li>
-        <li><a href="badges.html">Projects</a></li>
-        <li><a href="collapsible.html">Skills</a></li>
-        <li><a href="mobile.html">Social Links	</a></li>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#social-media">Social Links</a></li>
       </ul>
     </div>
   </nav>
+  </div>
 
+  <div id="about-me">
    <div class="parallax-container">
     <div class="parallax"><img src="img/computer.jpg"></div>
+    <br></br><br></br><br></br><br></br><br></br>
+    <center><h2 class="header ">About Me</h2><center>
   </div>
   <div class="section white">
     <div class="row container">
-      <h2 class="header">About Me <i class="fa fa-thumbs-o-up" aria-hidden="true"></i></h2>
-      <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+      <p class="grey-text text-darken-3 lighten-3">
+        <p><i class="fa fa-commenting-o fa-2x" aria-hidden="true"></i>  I love learning new languages. Part of this interest comes from my diverse taste in music. I love listening to music in different languages!<br></br> 
+        <i class="fa fa-code fa-2x" aria-hidden="true"></i>  This summer I completed the Girls Who Code Summer Immersion Program. I learned Scratch, Python, HTML, and Javascript.<br></br>
+        <i class="fa fa-pencil-square-o fa-2x" aria-hidden="true"></i>In my free time I like to draw and write. It is very relaxing for me, so I do it to destress. <br></br>
+      </p>
     </div>
   </div>
+  </div>
+
+  <div id="projects" class="section scrollspy">
   <div class="parallax-container">
     <div class="parallax"><img src="img/city.jpg"></div>
+    <br></br><br></br><br></br><br></br><br></br>
+    <center><h2 class="header">Projects</h2><center>
   </div>
   <div class="section white">
-    <div class="row container">
-      <h2 class="header">Projects</h2>
+    <div class="row container">      
       <p class="grey-text text-darken-3 lighten-3"></p>
     </div>
   </div>
 
   <div class="row container">
-        <div class="col s12 m4 l4">
+        <div class="col s12 m4 l4" class="section scrollspy animated fadeInRight wow" data-wow-delay=".5s">
           <div class="card">
             <div class="card-image">
               <img src="img/madlibs.png" height ="500">
             </div>
             <div class="card-content">
              <span class="card-title">Mad Libs</span>
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <p> A simple game of Mad-Libs made using AngularJS. The user can input words, and they will be inserted in the story below.</p>
             </div>
             <div class="card-action">
-              <a href="#">View Page</a>
+              <a href="http://swarrier16.github.io/mad-libs/mad-libs/mad-libs.html" target="_blank">View Page</a>
+              <a href="https://github.com/swarrier16/mad-libs/tree/master/mad-libs" target="_blank">View Repository</a>
             </div>
           </div>
         </div>       
@@ -74,25 +90,94 @@
             </div>
             <div class="card-content">
             <span class="card-title">To-Do App</span>
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <p>A ToDo App. The user can input task, and check off completed tasks. This was created using AngularJS.</p>
             </div>
             <div class="card-action">
-              <a href="#">View Page</a>
+              <a href="http://swarrier16.github.io/todoList/to-do.html" target="_blank">View Page</a>
+              <a href="https://github.com/swarrier16/todoList" target="_blank">View Repository</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4 l4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/trivia.png" height ="500">
+            </div>
+            <div class="card-content">
+            <span class="card-title">Disney Trivia Game</span>
+              <p>Simple trivia game that uses the jQuery library of JavaScript. Test your knowledge on Disney! </p>
+            </div>
+            <div class="card-action">
+              <a href="http://swarrier16.github.io/trivia-game/trivia.html" target="_blank">View Page</a>
+              <a href="https://github.com/swarrier16/trivia-game" target="_blank">View Repository</a>
             </div>
           </div>
         </div>
       </div>
       </div>
+      </div>
+
+      <div class="row container">
+        <div class="col s12 m4 l4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/movie.png" height ="500">
+            </div>
+            <div class="card-content">
+             <span class="card-title">Movie Fan Site</span>
+              <p>A fan site on the Star Wars trilogies. Coded using animate.css, wow.js, and the jQuery library of JavaScript.</p>
+            </div>
+            <div class="card-action">
+              <a href="http://swarrier16.github.io/movie-fan-site/movie.html" target="_blank">View Page</a>
+              <a href="https://github.com/swarrier16/movie-fan-site" target="_blank">View Repository</a>
+            </div>
+          </div>
+        </div>       
+        <div class="col s12 m4 l4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/menu.png" height ="500">
+            </div>
+            <div class="card-content">
+            <span class="card-title">Restaurant Site</span>
+              <p>A website for "The Pavillion" restaurant. Bootstrap framework used to create a mobile friendly website. Includes lightbox and featurette features. </p>
+            </div>
+            <div class="card-action">
+              <a href="http://swarrier16.github.io/restaurant/welcome.html" target="_blank">View Page</a>
+              <a href="https://github.com/swarrier16/restaurant" target="_blank">View Repository</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4 l4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/learnme.png" height ="500">
+            </div>
+            <div class="card-content">
+            <span class="card-title">LearnMe</span>
+              <p>Beta site for language learning website. Learn French or Korean through LearnMe. Coded using Materialize and jQuerey.</p>
+            </div>
+            <div class="card-action">
+              <a href="http://swarrier16.github.io/sb-hackathon/learnMe.html" target="_blank">View Page</a>
+              <a href="https://github.com/swarrier16/sb-hackathon" target="_blank">View Repository</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+      </div>
 
 
+  <div id="skills" class="section scrollspy">
   <div class="parallax-container">
     <div class="parallax"><img src="img/flower.jpg"></div>
+    <br></br><br></br><br></br><br></br><br></br>
+    <center><h2 class="header">Skills</h2><center>
   </div>
 
   <div class="section white">
     <div class="row container">
-      <h2 class="header">Skills</h2>
      <div class="col s6 m4 l4 pulse-on-mouseenter">
             <div class="card-panel blue-grey darken-4 center-align z-depth-5">
               <span class="white-text">
@@ -148,18 +233,21 @@
                 <i class="devicons devicons-python fa-5x fadeIn wow" data-wow-delay=".4s"></i>
               </span>
             </div>
+        </div>
         </div>    
         
 
     </div>
   </div>
+  <div id="social-media" class="section scrollspy">
   <div class="parallax-container">
     <div class="parallax"><img src="img/phone.jpg"></div>
+    <br></br><br></br><br></br><br></br><br></br>
+    <center><h2 class="header">Social Media</h2><center>
   </div>
 
   <div class="section white">
       <div class="row container">
-      <h2 class="header">Social Media <i class="fa fa-desktop" aria-hidden="true"></i></h2>
         <div class="col s6 m4 l4 pulse-on-mouseenter">
           <a href="https://github.com/swarrier16" target="_blank">
             <div class="card-panel blue-grey darken-4 center-align z-depth-5">
@@ -193,18 +281,19 @@
             </div>
           </a>
         </div>
-
-
-
+        </div>
     </div>
   </div>
-      
-    
 
+  <footer>
+      <div class="center-align blue-grey darken-4 ">
+       &copy 2016 Me
+      </div>
+  </footer>
 
-
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/wow.js"></script>
   <!-- custom scripts -->
   <script type="text/javascript" src="js/scripts.js"></script>
 </body>
